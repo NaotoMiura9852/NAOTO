@@ -10,16 +10,16 @@ public class Question4 {
 		//int型の配列を作成し、1,2,3,4,5を格納する
 		int[] array = { 1, 2, 3, 4, 5 };
 		//配列の全要素を順番に表示
-		for(int a = 0; a <= 4; a++) {
-			System.out.println( array[a] );
+		for(int ary: array) {
+			System.out.println( ary );
 		}
 		
 		//Q2
 		//int型の配列{10,20,30,40,50}を用意する
 		int[] array1 = {10, 20, 30, 40, 50};
 		//配列を逆順に表示
-		for(int b = 4; b >= 0; b--) {
-			System.out.println( array1[b] );
+		for(int ary1: array1) {
+			System.out.println( ary1 );
 		}
 		
 		//Q3
@@ -103,10 +103,10 @@ public class Question4 {
 		int min1 = array8[0][0];
 		for (int k = 0; k < 3; k++) {
 			for(int l = 0; l < 3; l++) {
-				if(array8[k][l] > max) {
+				if(array8[k][l] > max1) {
 					max1 = array8[k][l];
 				}
-				if(array8[k][l] < min) {
+				if(array8[k][l] < min1) {
 					min1 = array8[k][l];
 				}
 			}
@@ -127,7 +127,7 @@ public class Question4 {
 		}
 		
 		
-		
+		scanner.close();
 		
 		
 		
