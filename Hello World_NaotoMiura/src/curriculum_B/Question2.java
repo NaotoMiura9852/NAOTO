@@ -1,5 +1,7 @@
 package curriculum_B;
 
+import java.util.Scanner;
+
 public class Question2 {
 	
 	public static void main(String[] args) {
@@ -67,14 +69,14 @@ public class Question2 {
 		
 		//Q7
 		//int型の変数scoreに70を代入
-		int score1 = 70;
+		score = 70;
 		//値が90以上なら"優"、70以上なら"良"、50以上なら"可"、50未満なら"不可"を表示
 		String s6;
-		if (score1 >= 90) {
+		if (score >= 90) {
 			s6 = "優";
-		}else if(score1 >= 70 && score1 < 90) {
+		}else if(score >= 70 && score < 90) {
 			s6 = "良";
-		}else if(score1 >= 50 && score < 70) {
+		}else if(score >= 50 && score < 70) {
 			s6 = "可";
 		}else {
 			s6 = "不可";
@@ -82,13 +84,19 @@ public class Question2 {
 		System.out.println(s6);
 		
 		//Q8
-		//String型の変数inputを宣言し、そこにnullを代入する
-		String input = "";
+		//Scanner関数を宣言
+		Scanner scn = new Scanner(System.in);
+		//String型の変数inputを宣言
+		System.out.println("文字を入力してください:");
+		String input = scn.nextLine();
 		//入力がnullまたは空文字の時に"入力が無効です"と表示
-		if (input == null || "".isEmpty()) {
+		if (input.isEmpty()) {
 			System.out.println("入力が無効です");
+		}else if(input == "null") {
+			System.out.println("入力が無効です");
+		}else {
+			System.out.println(input);
 		}
-		
 		//Q9
 		//int型の変数dayを用意し、５を代入
 		int day = 5;
@@ -160,6 +168,11 @@ public class Question2 {
 		
 		
 		
+	}
+
+	private static String scn() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
 	}
 
 }
