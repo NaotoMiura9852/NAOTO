@@ -92,7 +92,7 @@ public class Question2 {
 		//入力がnullまたは空文字の時に"入力が無効です"と表示
 		if (input.isEmpty()) {
 			System.out.println("入力が無効です");
-		}else if(input == "null") {
+		}else if(input.equals("null")) {
 			System.out.println("入力が無効です");
 		}else {
 			System.out.println(input);
@@ -151,7 +151,7 @@ public class Question2 {
 		}
 		
 		
-		
+		scn.close();
 		
 		
 		

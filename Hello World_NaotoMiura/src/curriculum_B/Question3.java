@@ -105,10 +105,10 @@ public class Question3 {
 		}
 		
 		//Q12
-		Scanner scn1 = new Scanner(System.in);
+		scn.nextLine();
 		//String型で変数を宣言
 		System.out.println("表の中から選び「、」で区切って入力してください:");
-		String input = scn1.nextLine();
+		String input = scn.nextLine();
 		//"、"で区切り指定をする
 		String[] items = input.split("、");
 		//Randomで変数宣言、int型でテレビの残り台数とディスプレイの残り台数を変数宣言する
@@ -137,7 +137,6 @@ public class Question3 {
 		}
 		
 		scn.close();
-		scn1.close();
 		
 		
 		

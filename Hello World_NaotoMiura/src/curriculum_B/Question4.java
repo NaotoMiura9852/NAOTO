@@ -18,7 +18,7 @@ public class Question4 {
 		//int型の配列{10,20,30,40,50}を用意する
 		int[] array1 = {10, 20, 30, 40, 50};
 		//配列を逆順に表示
-		for(int ary1: array1) {
+		for(int ary1 = array1.length - 1; ary1 >= 0; ary1--) {
 			System.out.println( ary1 );
 		}
 		
@@ -63,22 +63,29 @@ public class Question4 {
 		int[] array5 = {4, 7, 10, 15, 20};
 		//ユーザーが入力した数字が配列に含まれているかを判定して結果を表示
 		Scanner scanner = new Scanner(System.in);
+		System.out.println("数字を入力してください:");
 		int e = scanner.nextInt();
+		boolean found = false;
 		for(int f = 0; f < array5.length; f++) {
 			if( e == array5[f]) {
-				System.out.println( "結果:" + e + "は配列に含まれています");
-				return;
+				found = true;
+				break;
 			}
 		}
-		System.out.println( "結果:" + e + "は配列に含まれていません");
+		if (found) {
+			System.out.println( "結果:" + e + "は配列に含まれています");
+		}else {
+			System.out.println( "結果:" + e + "は配列に含まれていません");
+		}
+		
 		
 		
 		//Q7
 		//int型の二次元配列{{1, 2}, {3, 4}, {5, 6}}を用意
 		int[][] array6 = {{1, 2}, {3, 4}, {5, 6}};
 		//配列の全ての要素を表示
-		for(int g = 0; g < 3; g++) {
-			for(int h = 0; h < 2; h++) {
+		for(int g = 0; g < array6.length; g++) {
+			for(int h = 0; h < array6[g].length; h++) {
 				System.out.println(array6[g][h]);
 			}
 		}
@@ -88,8 +95,8 @@ public class Question4 {
 		int[][] array7 ={{10, 20, 30}, {40, 50, 60}, {70, 80, 90}};
 		//配列の全ての合計値を表示
 		int sum1 = 0;
-		for(int i = 0; i < 3; i++) {
-			for(int j = 0; j < 3; j++) {
+		for(int i = 0; i < array7.length; i++) {
+			for(int j = 0; j < array7[i].length; j++) {
 				sum1 += array7[i][j];
 			}
 		}
@@ -101,8 +108,8 @@ public class Question4 {
 		//最大値と最小値を求めて表示
 		int max1 = array8[0][0];
 		int min1 = array8[0][0];
-		for (int k = 0; k < 3; k++) {
-			for(int l = 0; l < 3; l++) {
+		for (int k = 0; k < array8.length; k++) {
+			for(int l = 0; l < array8[k].length; l++) {
 				if(array8[k][l] > max1) {
 					max1 = array8[k][l];
 				}
@@ -118,9 +125,9 @@ public class Question4 {
 		//三次元配列int[][][] array9 = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};を用意
 		int[][][] array9 = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
 		//配列内の全ての要素を表示
-		for(int m = 0; m < 2; m++) {
-			for(int n = 0; n < 2; n++) {
-				for(int o = 0; o < 2; o++) {
+		for(int m = 0; m < array9.length; m++) {
+			for(int n = 0; n < array9[m].length; n++) {
+				for(int o = 0; o < array9[m][n].length; o++) {
 					System.out.println(array9[m][n][o]);
 				}
 			}
