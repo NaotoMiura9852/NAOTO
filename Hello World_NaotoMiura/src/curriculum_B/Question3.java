@@ -94,12 +94,7 @@ public class Question3 {
 		//九九の表を作成
 		for(int num8 = 1; num8 <= 9; num8++) {
 			for(int num9 = 1; num9 <= 9; num9++) {
-				if(num8 * num9 < 10) {
-					System.out.print("0"+ num8 + "*" + "0" + num9 + "=" + "0" + (num8 * num9));
-				}else {
-					System.out.print("0"+ num8 + "*" + "0" + num9 + "=" + (num8 * num9));
-				}
-				
+					System.out.print(String.format("%02d",num8) + "*" + String.format("%02d",num9) + "=" + String.format("%02d",num8 * num9));
 				if(num9 < 9) {
 					System.out.print("||");
 				}else {
@@ -110,8 +105,10 @@ public class Question3 {
 		}
 		
 		//Q12
+		Scanner scn1 = new Scanner(System.in);
 		//String型で変数を宣言
-		String input = "パソコン、冷蔵庫、扇風機、洗濯機、加湿器、テレビ、ディスプレイ、その他商品";
+		System.out.println("表の中から選び「、」で区切って入力してください:");
+		String input = scn1.nextLine();
 		//"、"で区切り指定をする
 		String[] items = input.split("、");
 		//Randomで変数宣言、int型でテレビの残り台数とディスプレイの残り台数を変数宣言する
@@ -139,7 +136,8 @@ public class Question3 {
 			}
 		}
 		
-		
+		scn.close();
+		scn1.close();
 		
 		
 		
