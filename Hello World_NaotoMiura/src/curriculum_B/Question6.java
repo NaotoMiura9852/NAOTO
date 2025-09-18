@@ -11,6 +11,14 @@ public class Question6 {
 		
 		emp.work();
 		
+		
+		//Q2クラスとオブジェクト
+		emp.Name("佐藤太郎");
+		
+		emp.EmployeeId("E001");
+		
+		emp.showInfo();
+		
 	}
 
 }
