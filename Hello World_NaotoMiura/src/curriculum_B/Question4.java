@@ -19,7 +19,7 @@ public class Question4 {
 		int[] array1 = {10, 20, 30, 40, 50};
 		//配列を逆順に表示
 		for(int ary1 = array1.length - 1; ary1 >= 0; ary1--) {
-			System.out.println( ary1 );
+			System.out.println( array1[ary1] );
 		}
 		
 		//Q3
