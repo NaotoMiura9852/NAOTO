@@ -6,11 +6,11 @@ public class Employee {
 	//Q1 基本概念
 	private String name;
 	
-	public void Name(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 	
-	public String Name() {
+	public String getName() {
 		return this.name;
 	}
 	
@@ -23,11 +23,11 @@ public class Employee {
 	//Q2 クラスとオブジェクト
 	private String employeeId;
 	
-	public void EmployeeId(String employeeId) {
+	public void setEmployeeId(String employeeId) {
 		this.employeeId = employeeId;
 	}
 	
-	public String EmployeeId() {
+	public String getEmployeeId() {
 		return this.employeeId;
 	}
 	
@@ -35,6 +35,10 @@ public class Employee {
 		System.out.println("社員ID:" + employeeId + ", 名前:" + name);
 	}
 	
+	
+	
+	//Q3　カプセル化
+	//Q1とQ2で生成済み
     
 
 }

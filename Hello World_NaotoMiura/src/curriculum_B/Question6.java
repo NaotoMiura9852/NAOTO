@@ -7,17 +7,24 @@ public class Question6 {
 		//Q1 基本概念
 		Employee emp = new Employee();
 		
-		emp.Name("山田太郎");
+		emp.setName("山田太郎");
 		
 		emp.work();
 		
 		
 		//Q2クラスとオブジェクト
-		emp.Name("佐藤太郎");
+		emp.setName("佐藤太郎");
 		
-		emp.EmployeeId("E001");
+		emp.setEmployeeId("E001");
 		
 		emp.showInfo();
+		
+		
+		//Q3 カプセル化
+		emp.setEmployeeId("E002");
+		emp.setName("田中花子");
+		
+		System.out.println("社員ID:" + emp.getEmployeeId() + ", 名前:" + emp.getName());
 		
 	}
 
