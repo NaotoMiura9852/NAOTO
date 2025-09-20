@@ -8,28 +8,28 @@ public class Animal {
 	private int speed;
 	
 	//setterを用意
-	public void Name(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 	
-	public void Length(double length) {
+	public void setLength(double length) {
 		this.length = length;
 	}
 	
-	public void Speed(int spped) {
+	public void setSpeed(int spped) {
 		this.speed = spped;
 	}
 	
 	//getterを用意
-	public String Name() {
+	public String getName() {
 		return this.name;
 	}
 	
-	public double Length() {
+	public double getLength() {
 		return this.length;
 	}
 	
-	public int Speed() {
+	public int getSpeed() {
 		return this.speed;
 	}
 	

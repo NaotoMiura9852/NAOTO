@@ -18,8 +18,8 @@ public class Question5 {
 		
 		//Q3
 		int num1 = 7, num2 = 10;
-		System.out.println(num2 + (isEven(num2) ? "は偶数です.": "は奇数です。int"));
-		System.out.println(num1 + (isEven(num1) ? "は偶数です.": "は奇数です。int"));
+		System.out.println(num2 + (isEven(num2) ? "は偶数です.": "は奇数です。"));
+		System.out.println(num1 + (isEven(num1) ? "は偶数です.": "は奇数です。"));
 		
 		//Q4
 		Greeting g = new Greeting();
@@ -27,13 +27,13 @@ public class Question5 {
 		
 		//Q5
 		Animal animal = new Animal();
-		animal.Name("ライオン");
-		animal.Length(2.1);
-		animal.Speed(80);
+		animal.setName("ライオン");
+		animal.setLength(2.1);
+		animal.setSpeed(80);
 		
-		System.out.println("動物名:" + animal.Name());
-		System.out.println("体長:" + animal.Length() + "m");
-		System.out.println("速度:" + animal.Speed() + "km/h");
+		System.out.println("動物名:" + animal.getName());
+		System.out.println("体長:" + animal.getLength() + "m");
+		System.out.println("速度:" + animal.getSpeed() + "km/h");
 		
 		
 		scn.close();
