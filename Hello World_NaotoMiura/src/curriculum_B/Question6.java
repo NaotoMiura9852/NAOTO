@@ -26,6 +26,17 @@ public class Question6 {
 		
 		System.out.println("社員ID:" + emp.getEmployeeId() + ", 名前:" + emp.getName());
 		
+		
+		//Q4 継承
+		abEmployee fullTime = new FullTimeEmployee("E001", "佐藤太郎");
+		abEmployee partTime = new PartTimeEmployee("E002", "田中花子");
+		
+		int fullTimeWages = fullTime.calculateDailyWage(9);
+		int partTimeWages = partTime.calculateDailyWage(9);
+		
+		System.out.println("正社員の給与" + fullTimeWages + "円");
+		System.out.println("パート社員の給与" + partTimeWages + "円");
+		
 	}
 
 }
