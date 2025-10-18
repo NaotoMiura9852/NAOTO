@@ -1,0 +1,8 @@
+結果
+naotoHP:81, AT:11, SP:6
+UnknownHP:0, AT:0, SP:0
+
+先攻はnaoto!
+
+バトル終了
+naotoの勝利!
