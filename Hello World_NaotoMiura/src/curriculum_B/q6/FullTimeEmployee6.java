@@ -10,7 +10,7 @@ public class FullTimeEmployee6 extends AbEmployee6{
 	
 	@Override
 	public int costForDay(int hoursWorked) {
-		int NORMAL = 1250;
+		final int NORMAL = 1250;
 		int dailyWage;
 		if (hoursWorked <= 8) {
 			dailyWage = hoursWorked * NORMAL;

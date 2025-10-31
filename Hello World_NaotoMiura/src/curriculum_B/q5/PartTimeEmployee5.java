@@ -7,7 +7,7 @@ public class PartTimeEmployee5 extends AbEmployee5{
 		}		
 		@Override		
 		public int calculateDailyWage(int hoursWorked) {		
-		int HOURLY_RATE = 1000;		
+		final int HOURLY_RATE = 1000;		
 		return hoursWorked * HOURLY_RATE;		
 		}		
 
