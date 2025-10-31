@@ -2,7 +2,7 @@ package curriculum_B.q1234;
 
 public class PartTimeEmployee extends AbEmployee {
 	
-	private static final int hourlyWage = 1000;
+	private static final int Hourly_Wage = 1000;
 	
 	public PartTimeEmployee(String id, String name) {
 		super(id, name);
@@ -11,7 +11,7 @@ public class PartTimeEmployee extends AbEmployee {
 	
 	@Override
 	public int calculateDailyWage(int hoursWorked) {
-		return hoursWorked * hourlyWage;
+		return hoursWorked * Hourly_Wage;
 	}
 
 }

@@ -1,35 +1,48 @@
 結果
-naotoHP:77, AT:15, SP:9
+naotoHP:93, AT:10, SP:9
 DaemonHP:85, AT:12, SP:6
 
 先攻はnaoto!
 
 ターン1
 naoto→Daemonに攻撃!
-naotoHP:65, AT:15, SP:9
-DaemonHP:70, AT:12, SP:6
+naotoHP:81, AT:10, SP:9
+DaemonHP:75, AT:12, SP:6
 
 ターン2
 naoto→Daemonに攻撃!
-naotoHP:53, AT:15, SP:9
-DaemonHP:55, AT:12, SP:6
+naotoHP:69, AT:10, SP:9
+DaemonHP:65, AT:12, SP:6
 
 ターン3
 naoto→Daemonに攻撃!
-naotoHP:41, AT:15, SP:9
-DaemonHP:40, AT:12, SP:6
+naotoHP:57, AT:10, SP:9
+DaemonHP:55, AT:12, SP:6
 
 ターン4
 naoto→Daemonに攻撃!
-naotoHP:29, AT:15, SP:9
-DaemonHP:25, AT:12, SP:6
+naotoHP:45, AT:10, SP:9
+DaemonHP:45, AT:12, SP:6
 
 ターン5
 naoto→Daemonに攻撃!
-naotoHP:17, AT:15, SP:9
-DaemonHP:10, AT:12, SP:6
+naotoHP:33, AT:10, SP:9
+DaemonHP:35, AT:12, SP:6
 
 ターン6
 naoto→Daemonに攻撃!
+naotoHP:21, AT:10, SP:9
+DaemonHP:25, AT:12, SP:6
+
+ターン7
+naoto→Daemonに攻撃!
+naotoHP:9, AT:10, SP:9
+DaemonHP:15, AT:12, SP:6
+
+ターン8
+naoto→Daemonに攻撃!
+naotoHP:0, AT:10, SP:9
+DaemonHP:5, AT:12, SP:6
+
 バトル終了
-naotoの勝利!
+Daemonの勝利!

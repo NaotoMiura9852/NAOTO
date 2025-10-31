@@ -10,8 +10,8 @@ public class SalalyCalculator {
 		List<Billable7> employees = new ArrayList<>();
 		
 		employees.add(new FullTimeEmployee7("山田太郎", 9));
-		employees.add(new FullTimeEmployee7("佐藤太郎", ６));
-		employees.add(new PartTimeEmployee7("田中花子", ７));
+		employees.add(new FullTimeEmployee7("佐藤太郎", 6));
+		employees.add(new PartTimeEmployee7("田中花子", 7));
 		
 		SalaryReporter salary = new SalaryReporter();
 		salary.report(employees);

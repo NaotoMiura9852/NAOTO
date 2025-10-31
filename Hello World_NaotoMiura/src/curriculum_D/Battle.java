@@ -52,9 +52,9 @@ public class Battle {
 					
 				} else {
 					
-					first = daemon;
+					first = player;
 					
-					second = player;
+					second = daemon;
 					
 				}
 				
