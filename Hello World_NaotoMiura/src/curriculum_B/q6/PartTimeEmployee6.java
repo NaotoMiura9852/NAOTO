@@ -10,8 +10,8 @@ public PartTimeEmployee6(String id, String name) {
 	
 	@Override
 	public int costForDay(int hoursWorked) {
-		int Normal = 1000;
-		int dailyWage = hoursWorked * Normal;
+		int NORMAL = 1000;
+		int dailyWage = hoursWorked * NORMAL;
 		
 		return dailyWage;
 	}
